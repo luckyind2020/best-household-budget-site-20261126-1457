@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth Budget — A household budget that adds up</title>
+<meta name="description" content="Hearth Budget helps a household track income, spending, budgets and savings goals — all in the browser, no account needed.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div>
+      <p class="brand">🏡 Hearth Budget</p>
+      <p class="household">The Marlowe Household</p>
+    </div>
+    <div class="month-switch" role="group" aria-label="Choose month">
+      <button id="month-prev" aria-label="Previous month">‹</button>
+      <span id="month-label">November 2026</span>
+      <button id="month-next" aria-label="Next month">›</button>
+    </div>
+  </div>
+  <nav id="nav" class="wrap" aria-label="Sections"></nav>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="wrap site-footer">
+  <p>Hearth Budget · Demo data for November 2026 · Everything runs in your browser — nothing is uploaded.</p>
+  <p><button id="reset-demo" class="linklike">Reset demo data</button></p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
